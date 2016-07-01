@@ -219,7 +219,7 @@ If stringifyOptions is an `object`, you can easily check [json-stable-stringify]
 Type: `String` 
 Default: `""`
 
-If subfolder is a valid String 
+If subfolder is a valid String all key files will be created in a subfolder relative to parent folder
 
 
 
