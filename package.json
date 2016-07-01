@@ -1,0 +1,50 @@
+{
+  "name": "gulp-angular-translate-tree-extract",
+  "version": "0.1.0",
+  "description": "Another version of gulp-angular-translate-extract. Extracts all the translation keys for angular-translate project created by Pascal Precht, saving separated files relative to the parent folder where the keys are, ideal when using a feature folder structure organization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdavoff/gulp-angular-translate-tree-extract.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "angularJS",
+    "angular",
+    "angular-translate",
+    "gulp",
+    "javascript",
+    "js",
+    "translate",
+    "i18n",
+    "l10n",
+    "localisation",
+    "translation",
+    "internationalization",
+    "internationalisation",
+    "features",
+    "modules",
+    "tree"
+  ],
+  "author": "Josue Rios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdavoff/gulp-angular-translate-tree-extract.git/issues"
+  },
+  "homepage": "https://github.com/jdavoff/gulp-angular-translate-tree-extract.git",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "*"
+  },
+  "dependencies": {
+    "chalk": "1.1.*",
+    "flat": "^1.6.0",
+    "gulp-util": "3.0.*",
+    "json-stable-stringify": "^1.0.0",
+    "lodash": "3.10.*",
+    "through2": "^2.0.0"
+  }
+}
