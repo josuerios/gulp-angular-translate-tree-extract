@@ -1,7 +1,7 @@
 {
   "name": "gulp-angular-translate-tree-extract",
-  "version": "0.1.0",
-  "description": "Another version of gulp-angular-translate-extract. Extracts all the translation keys for angular-translate project created by Pascal Precht, saving separated files relative to the parent folder where the keys are, ideal when using a feature folder structure organization.",
+  "version": "0.1.1",
+  "description": "Another version of gulp-angular-translate-extract. Extracts all the translation keys for angular-translate, saving separated files relative to the parent folder where the keys are, ideal when using a feature folder structure organization.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -6,7 +6,7 @@ Simply extract all the translation keys for [angular-translate](https://github.c
 Install this gulp plugin next to your project. Require [gulpjs](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
 ```bash
-$ npm install gulp-angular-translate-extract
+$ npm install gulp-angular-translate-tree-extract
 ```
 
 Then you can use the gulp plugin inside your gulp tasks, as follow:
@@ -92,6 +92,7 @@ This is all options supported by gulp-angular-translate:
 - [dest](#dest)
 - [safeMode](#safeMode)
 - [stringifyOptions](#stringifyoptions)
+- [subfolder](#subfolder)
 
 #### nullEmpty
 
@@ -213,11 +214,20 @@ Default: `false`
 If stringifyOptions is set to `true` the output will be sort (case insensitive).
 If stringifyOptions is an `object`, you can easily check [json-stable-stringify](https://github.com/substack/json-stable-stringify) README.
 
+#### subfolder
+
+Type: `String` 
+Default: `""`
+
+If subfolder is a valid String 
+
+
+
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Benjamin Cabanes
+Copyright (c) 2015 Josue Rios
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
